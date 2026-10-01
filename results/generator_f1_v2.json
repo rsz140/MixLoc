@@ -1,0 +1,66 @@
+{
+ "gpt-5.5": {
+  "n": 114937,
+  "n_ai": 23072,
+  "macro_f1": 0.5094,
+  "HUMAN_f1": 0.8574,
+  "PARTIAL_f1": 0.6407,
+  "FULL_f1": 0.0302
+ },
+ "gemini-3.7-flash": {
+  "n": 114264,
+  "n_ai": 22399,
+  "macro_f1": 0.5168,
+  "HUMAN_f1": 0.8602,
+  "PARTIAL_f1": 0.6181,
+  "FULL_f1": 0.0719
+ },
+ "glm-5.3": {
+  "n": 109799,
+  "n_ai": 17934,
+  "macro_f1": 0.5108,
+  "HUMAN_f1": 0.863,
+  "PARTIAL_f1": 0.5954,
+  "FULL_f1": 0.0741
+ },
+ "hy3": {
+  "n": 109383,
+  "n_ai": 17518,
+  "macro_f1": 0.4988,
+  "HUMAN_f1": 0.862,
+  "PARTIAL_f1": 0.5791,
+  "FULL_f1": 0.0553
+ },
+ "kimi-k2.7-code": {
+  "n": 107187,
+  "n_ai": 15322,
+  "macro_f1": 0.5009,
+  "HUMAN_f1": 0.8649,
+  "PARTIAL_f1": 0.5517,
+  "FULL_f1": 0.086
+ },
+ "qwen3.6-35b-a3b": {
+  "n": 106517,
+  "n_ai": 14652,
+  "macro_f1": 0.4898,
+  "HUMAN_f1": 0.8689,
+  "PARTIAL_f1": 0.5513,
+  "FULL_f1": 0.0494
+ },
+ "SEEN_deepseek-v4-flash": {
+  "n": 1765,
+  "n_ai": 865,
+  "macro_f1": 0.5326,
+  "HUMAN_f1": 0.7911,
+  "PARTIAL_f1": 0.7838,
+  "FULL_f1": 0.023
+ },
+ "SEEN_minimax-m2.5": {
+  "n": 1409,
+  "n_ai": 509,
+  "macro_f1": 0.5501,
+  "HUMAN_f1": 0.8518,
+  "PARTIAL_f1": 0.7984,
+  "FULL_f1": 0.0
+ }
+}

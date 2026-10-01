@@ -1,0 +1,39 @@
+{
+ "n_ai": 400,
+ "n_human": 400,
+ "protocol": "AI texts paraphrased (T5, beam-diversity 3.0), human texts unchanged; first 2000 chars; English subset per RAID-style attack setting",
+ "methods": {
+  "XLM-R-span": {
+   "auroc_before": 0.5645299145299145,
+   "auroc_after": 0.5823870573870573,
+   "auroc_drop": -0.017857142857142794,
+   "ai_detection_rate_before": 0.9444444444444444,
+   "ai_detection_rate_after": 0.9801587301587301,
+   "note": "span detection rate = fraction of AI docs with >=1 predicted span"
+  },
+  "XLM-R-CLS": {
+   "auroc_before": 0.727899877899878,
+   "auroc_after": 0.8141636141636142,
+   "auroc_drop": -0.08626373626373618,
+   "ai_detection_rate_before": 0.9825761883615679,
+   "ai_detection_rate_after": 0.9856255256251195,
+   "note": "AI detection rate at score>0.5 / higher-score-half"
+  },
+  "GLTR-proxy": {
+   "auroc_before": 0.5502747252747252,
+   "auroc_after": 0.4093101343101343,
+   "auroc_drop": 0.1409645909645909,
+   "ai_detection_rate_before": 8.27661934447667,
+   "ai_detection_rate_after": 7.6297667187357705,
+   "note": "AI detection rate at score>0.5 / higher-score-half"
+  },
+  "DetectLLM-LRR": {
+   "auroc_before": 0.5771978021978021,
+   "auroc_after": 0.6788766788766788,
+   "auroc_drop": -0.10167887667887665,
+   "ai_detection_rate_before": 2.8282983724087005,
+   "ai_detection_rate_after": 3.1409091547368067,
+   "note": "AI detection rate at score>0.5 / higher-score-half"
+  }
+ }
+}
